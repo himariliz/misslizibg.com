@@ -15,6 +15,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<style>
+/* Mobile: trim empty space under the hero photo */
+@media (max-width: 820px){
+  header.band-pink{ padding-bottom:36px !important; min-height:0 !important; }
+  header.band-pink .hero{ min-height:0 !important; padding-bottom:0 !important; gap:28px !important; }
+  header.band-pink .hero-photo-wrap{ margin-bottom:0 !important; padding-bottom:0 !important; min-height:0 !important; }
+}
+</style>
 </head>
 <body>
 
@@ -46,7 +54,7 @@
       <h1>Hi, I'm Miss Liz</h1>
       <p style="font-size:1.1rem;">19 years of TESOL English teaching experience — and a mum who homeschooled her own two children through the same questions your family might be asking now.</p>
     </div>
-    <div class="hero-photo-wrap">
+    <div class="hero-photo-wrap" style="max-width:min(400px, 68%); width:100%; margin:0 auto; justify-self:center;">
       <img src="images/liz-headshot.png" alt="Miss Liz, qualified TESOL TEFL ESL teacher">
     </div>
   </div>
