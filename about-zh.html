@@ -15,6 +15,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<style>
+/* Mobile: trim empty space under the hero photo */
+@media (max-width: 820px){
+  header.band-pink{ padding-bottom:36px !important; min-height:0 !important; }
+  header.band-pink .hero{ min-height:0 !important; padding-bottom:0 !important; gap:28px !important; }
+  header.band-pink .hero-photo-wrap{ margin-bottom:0 !important; padding-bottom:0 !important; min-height:0 !important; }
+}
+</style>
 </head>
 <body class="zh">
 
@@ -46,7 +54,7 @@
       <h1>你好，我是 Liz 老師</h1>
       <p style="font-size:1.1rem;">19年 TESOL 英語教學經驗——同時也是一位曾經在家教育自己兩個孩子的母親，陪伴他們走過你的家庭現在或許正在思考的同樣問題。</p>
     </div>
-    <div class="hero-photo-wrap">
+    <div class="hero-photo-wrap" style="max-width:min(400px, 68%); width:100%; margin:0 auto; justify-self:center;">
       <img src="images/liz-headshot.png" alt="Miss Liz, 認可 TESOL TEFL ESL 老師">
     </div>
   </div>
